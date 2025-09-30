@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="NobleSociety"/>
+	<Id value="NobleSociety"/>
+	<Version value="v1.0.0"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Official value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="StoryMode" />
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value="NobleSociety"/>
+			<DLLName value="NobleSociety.dll"/>
+			<SubModuleClassType value="NobleSociety.SubModule"/>
+			<Tags>
+				<Tag key="DedicatedServerType" value="none"/>
+			</Tags>
+		</SubModule>
+	</SubModules>
+</Module>
+
